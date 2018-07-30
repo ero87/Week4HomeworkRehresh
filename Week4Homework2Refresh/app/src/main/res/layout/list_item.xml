@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/image_width"
+    android:layout_margin="@dimen/margin">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="@dimen/title_size"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/title_left"
+        android:layout_marginTop="@dimen/title_top"
+        android:layout_toRightOf="@+id/my_image"
+        android:textSize="@dimen/text_size" />
+
+    <ImageView
+        android:id="@+id/my_image"
+        android:layout_width="@dimen/image_width"
+        android:layout_height="@dimen/image_width"
+        android:scaleType="centerCrop"
+        android:src="@drawable/nissan" />
+
+
+    <RatingBar
+        android:id="@+id/rating"
+        style="?android:attr/ratingBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:isIndicator="true"
+        android:stepSize="1.0" />
+
+    <ImageButton
+        android:id="@+id/cart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:background="@null"
+        android:src="@drawable/ic_add_cart" />
+
+    <ImageButton
+        android:id="@+id/favorite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/my_image"
+        android:background="@null"
+        android:src="@drawable/ic_favorite" />
+
+</RelativeLayout>

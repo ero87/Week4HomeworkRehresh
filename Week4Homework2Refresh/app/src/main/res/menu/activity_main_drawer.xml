@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Electronics" />
+        <item
+            android:id="@+id/nav_cars"
+            android:icon="@drawable/ic_directions_car"
+            android:title="Cars" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_motorcycle"
+            android:title="Motorcycle" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Instruments" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/liked"
+                android:icon="@drawable/ic_fav24dp"
+                android:title="Like" />
+            <item
+                android:id="@+id/nav_cart"
+                android:icon="@drawable/ic_shopping_cart"
+                android:title="Cart" />
+        </menu>
+    </item>
+
+</menu>

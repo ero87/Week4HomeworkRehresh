@@ -1,0 +1,137 @@
+<resources>
+    <string name="app_name">Week4Homework2</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">ARMENIAN SHOP</string>
+    <string name="nav_header_subtitle">VTC 2018</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_info">InfoActivity</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="nissan_teana">http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ElephantsDream.mp4</string>
+    <string name="bmw_x5">http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4</string>
+    <string name="mercedes">http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4</string>
+    <string name="audi">http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4</string>
+    <string name="toyota">http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4</string>
+    <string name="yamaha">http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4</string>
+    <string name="neader">http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4</string>
+    <string name="hearly">http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4</string>
+    <string name="asus">http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4</string>
+    <string name="iphone">http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4</string>
+    <string name="samsung">http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4</string>
+    <string name="playstation">http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4</string>
+    <string name="zd">http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4</string>
+    <string name="bosch">http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4</string>
+
+    <string name="nissan">Автоконцерн Renault-Nissan обещает выпустить Ниссан Теана нового 2018 года. Недавно новый кузов автомобиля был презентован за рубежом, а что самое интересно, Nissan Maxima вскоре и выступит на рынке РФ в роли Teana. Помимо существенных преобразований во внешнем дизайне и в интерьере салона, кар обзавелся впечатляющими техническими модернизациями. Производители придерживаются мнения, что такое усовершенствование авто стало огромным шагом в развитии модели. Благодаря качественному выполнению и высококлассным характеристикам Teana удовлетворит даже самых привередливых автомобилистов.</string>
+    <string name="bmw">Новый BMW X5 — лидер модельного ряда, который расставляет все по местам. Этот высокий, элегантный и сильный автомобиль невозможно не заметить. Мощная цельная двойная решетка радиатора словно намекает на то, что произойдет при запуске двигателя. Великолепный дизайн фар в стиле X не отставляет сомнений в том, кто же лидер. Благодаря инновационным технологиям для максимальной динамики и большей безопасности на любых покрытиях новый BMW X5 знает куда двигаться. И как оказаться там первым.</string>
+    <string name="merc">Хотя и в камуфляже новый Mercedes выглядит очень впечатляюще, многие эксперты склоняются к мысли, что окончательная версия new GLE, производство которой начнется в конце 2018 или начале 2019 года, будет несколько отличаться от тестируемого авто. Скорее всего, доработка коснется бамперов (в частности, заднего бампера), но не исключено, что в окончательной версии мы увидим иную по форме и функционалу оптику. В сети появилась информация, что все модели серии получат выхлопные трубы, спрятанные под бампером. Но в тестовой версии автомобиля они интегрированы в задний бампер, что также наводит на мысль о том, что еще возможны изменения в экстерьере.... Подробнее: https://2019-god.com/mercedes-gle-2019-goda/</string>
+    <string name="audi_a8">Модельный ряд новых авто Ауди 2017-2018 года пополнил новейший седан Audi A8 – 4 поколение флагмана немецкой компании. Предлагаем вниманию наших читателей новый Ауди А8 2018 – фото и видео, цена и комплектации, технические характеристики самой ожидаемой новинки Audi AG в текущем году. Официальная премьера новых версий Audi A8 и Audi A8L состоялась 11 июля 2017 года на специальном мероприятии в испанской Барселоне, мировая публичная презентация нового поколения Ауди А8 запланирована на начало осени 2017 года в рамках Frankfurt Motor Show. Продажи новинки в Германии стартуют в октябре-ноябре текущего года по цене от 90600 евро за Audi A8 и от 94100 евро за удлиненную версию Audi A8L.</string>
+    <string name="camry">Hell has frozen over and pigs are flying, as Toyota has done the seemingly improbable: build a Camry that, for once, isn’t a wallflower when it comes time to dance. After 16 years of riding on Toyota’s venerable K platform, the 2018 Toyota Camry moves the company’s mid-size family sedan onto the scalable Toyota New Global Architecture (TNGA) that also underpins the Prius hatchback and the C-HR subcompact crossover and which will serve as the basis for the next-generation Avalon, Corolla, and Highlander.</string>
+    <string name="yama">The Yamaha SR400 is the perfect motorcycle for both the custom bike builder and the rider who loves personalization. The SR is world renowned for its basis as the perfect platform as a Café or Street Tracker machine. Personalization and customization are limited only by the designer’s imagination.</string>
+    <string name="nead">Originally a mobile repair service composed of just two mechanics, Moto-Medic has grown over the years to become a complete auto repair service that proudly houses some of the areas most experienced and dedicated Master Mechanics. Conveniently located just outside of Downtown Lake Orion, we are your one-stop shop for electrical repairs, mechanical repairs, and everything in-between. Our team’s amazing ability to diagnose even the most complicated issues has earned us a reputation as “The Drivability Experts.”</string>
+    <string name="haerly_davidson">Harley-Davidson Motor Company (по-русски Харли-Дэвидсон, NYSE: HOG, раньше известная как HDI[1]) — американский производитель мотоциклов и сертифицированный поставщик продукции военного назначения для Вооружённых сил США (с 1982 года),[2][3] базирующийся в городе Милуоки, штат Висконсин, с производственными мощностями в других регионах США и за пределами страны. Компания производит и продаёт тяжёлые мотоциклы, предназначенные для езды по шоссе.
+
+Особенность маркетинговой политики Harley — создание сообщества людей, лояльных именно к этой марке. Помимо мотоциклов, компания выпускает множество товаров широкого потребления с эмблемой Harley-Davidson. Одежда, обувь, мебель, посуда, выпускаемые под этой маркой, позволяет создать своеобразный стиль жизни от Харли, который делает мотоцикл по-настоящему культовым. Также каждый владелец любого из мотоциклов Харли имеет возможность вступить в созданное брендом сообщество владельцев мотоциклов этой марки (H.O.G. — Harley Owners Group). На сегодня H.O.G. — самый многочисленный клуб любителей мотоциклов в мире, насчитывающий более миллиона участников.
+
+В 2008 году компания выкупила у семьи Кастильони 100 % акций компании MV Agusta Group, которая производит мотоциклы под брендами MV Agusta и Cagiva.</string>
+    <string name="asus_E">ASUS Vivobook N580VD-DB74T 15.6-inch FHD Touch, GTX 1050, Intel i7, 512 GB SSD, 16GB</string>
+    <string name="iphone_8">iPhone 8 и iPhone 8 Plus основаны на процессоре A11 Bionic с 64-битной архитектурой и сопроцессором M11, отвечающим за геопозицию и гироскоп. Объем оперативной памяти составляет 2 ГБ (3 ГБ в iPhone 8 Plus).
+
+В отличие от своего предшественника, смартфоны получили беспроводную зарядку (поддерживаются зарядные устройства стандарта Qi 1.0 мощностью 5 Вт), оптический зум; 6-кратный цифровой зум (только для iPhone 8 Plus).</string>
+    <string name="samsung_tv">Samsung Group («Сáмсон Груп», кор. 삼성그룹, Samseong Gurub, Samsŏng Gurup) — южнокорейская группа компаний, один из крупнейших чеболей, основанный в 1938 году. На мировом рынке известен как производитель высокотехнологичных компонентов, включая полноцикловое производство интегральных микросхем, телекоммуникационного оборудования, бытовой техники, аудио- и видеоустройств. Главный офис компании расположен в Сувоне.</string>
+    <string name="play">PlayStation TV (abbreviated to PS TV), known in Japan and other parts of Asia as the PlayStation Vita TV or PS Vita TV, is a microconsole,[14][15][16] and a non-handheld variant of the PlayStation Vita handheld game console. It was released in Japan on November 14, 2013,[3] North America on October 14, 2014, and Europe and Australasia on November 14, 2014.[4]</string>
+    <string name="zd_967">Создан Волгоградским тракторным заводом на базе боевой машины десанта БМД-1 и, как и она, предназначался для вооружения Воздушно-десантных войск и мог десантироваться парашютным способом. Серийно производился с 1974 года, в отличие от практически всей другой лёгкой советской бронетехники, на экспорт не поставлялся и поступал на вооружение только ВС Союза ССР. Использовался советскими войсками в Афганской войне, а после распада СССР применялся Россией в Чеченской войне. По состоянию на 2007 год, БТР-Д всё ещё стоят на вооружении России и ряда других государств и стран постсоветского пространства.</string>
+    <string name="bosch_w">Robert Bosch GmbH (произносится: Ро́берт Бош ГмбХ) — немецкая группа компаний, ведущий мировой поставщик технологий и услуг в области автомобильных и промышленных технологий, потребительских товаров, строительных и упаковочных технологий.</string>
+</resources>
